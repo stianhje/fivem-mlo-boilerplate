@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapData>
+  <name>sanhje_map_placement</name>
+  <parent/>
+  <flags value="0"/>
+  <contentFlags value="73"/>
+  <streamingExtentsMin x="464.73090000" y="2602.42500000" z="-121.09750000"/>
+  <streamingExtentsMax x="814.11310000" y="2956.33800000" z="195.79760000"/>
+  <entitiesExtentsMin x="614.73090000" y="2752.42500000" z="28.90253000"/>
+  <entitiesExtentsMax x="664.11310000" y="2806.33800000" z="45.79763000"/>
+  <entities>
+    <Item type="CMloInstanceDef">
+      <archetypeName>v_sanhje_map</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="632.68170000" y="2776.87000000" z="44.61413000"/>
+      <rotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+      <scaleXY value="1.00000000"/>
+      <scaleZ value="1.00000000"/>
+      <parentIndex value="-1"/>
+      <lodDist value="150.00000000"/>
+      <childLodDist value="0.00000000"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+      <groupId value="0"/>
+      <floorId value="0"/>
+      <defaultEntitySets/>
+      <numExitPortals value="0"/>
+      <MLOInstflags value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries>
+    <Item>v_sanhje_map</Item>
+  </physicsDictionaries>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>sanhje_map_placement</name>
+    <exportedBy>CodeWalker</exportedBy>
+    <owner/>
+    <time>21 August 2020 23:43</time>
+  </block>
+</CMapData>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="123.061" />
+      <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.48544" y="-13.2944" z="-5.43425" />
+      <bbMax x="5.48544" y="13.2944" z="5.43425" />
+      <bsCentre x="4.76837e-007" y="0.0" z="0.0" />
+      <bsRadius value="15.3741" />
+      <hdTextureDist value="92.2958" />
+      <name>sanhje_map_shell</name>
+      <textureDictionary>sanhje_map_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>sanhje_map_shell</assetName>
+      <extensions />
+    </Item>
+    <Item type="CMloArchetypeDef">
+      <lodDist value="500.00000000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="0.00000000" y="0.00000000" z="0.00000000"/>
+      <bbMax x="0.00000000" y="0.00000000" z="0.00000000"/>
+      <bsCentre x="0.00000000" y="0.00000000" z="0.00000000"/>
+      <bsRadius value="11.09800000"/>
+      <hdTextureDist value="100.00000000"/>
+      <name>v_sanhje_map</name>
+      <textureDictionary/>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary>v_sanhje_map</physicsDictionary>
+      <assetType>ASSET_TYPE_ASSETLESS</assetType>
+      <assetName>v_sanhje_map</assetName>
+      <extensions/>
+      <mloFlags value="0"/>
+      <entities>
+        <Item type="CEntityDef">
+          <archetypeName>sanhje_map_shell</archetypeName>
+          <flags value="1572864"/>
+          <guid value="0"/>
+          <position x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <rotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <scaleXY value="1.00000000"/>
+          <scaleZ value="1.00000000"/>
+          <parentIndex value="-1"/>
+          <lodDist value="500.00000000"/>
+          <childLodDist value="0.00000000"/>
+          <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+          <numChildren value="0"/>
+          <priorityLevel>PRI_REQUIRED</priorityLevel>
+          <extensions/>
+          <ambientOcclusionMultiplier value="255"/>
+          <artificialAmbientOcclusion value="255"/>
+          <tintValue value="0"/>
+        </Item>
+      </entities>
+      <rooms>
+        <Item>
+          <name>limbo</name>
+          <bbMin x="-5.48544" y="-13.2944" z="-5.43425" />
+          <bbMax x="5.48544" y="13.2944" z="5.43425" />
+          <blend value="1.00000000"/>
+          <timecycleName/>
+          <secondaryTimecycleName/>
+          <flags value="96"/>
+          <portalCount value="9"/>
+          <floorId value="0"/>
+          <exteriorVisibiltyDepth value="-1"/>
+          <attachedObjects content="int_array">
+            0
+          </attachedObjects>
+        </Item>
+        <Item>
+          <name>sanhje_map_room_1</name>
+          <bbMin x="-5.48544" y="-6.22675" z="-3.46468" />
+          <bbMax x="5.48544" y="6.22675" z="3.46468" />
+          <blend value="1.00000000"/>
+          <timecycleName></timecycleName>
+          <secondaryTimecycleName/>
+          <flags value="96"/>
+          <portalCount value="8"/>
+          <floorId value="1"/>
+          <exteriorVisibiltyDepth value="-1"/>
+          <attachedObjects/>
+        </Item>
+      </rooms>
+      <portals>
+        <Item>
+          <roomFrom value="1"/>
+          <roomTo value="0"/>
+          <flags value="0"/>
+          <mirrorPriority value="0"/>
+          <opacity value="0"/>
+          <audioOcclusion value="0"/>
+          <corners content="vector3_array">
+            -4.72834 12.0452 -1.49479
+            -4.72724 12.0452 1.52328
+            -3.19951 12.0455 1.52328
+            -3.20148 12.045 -1.49479
+          </corners>
+          <attachedObjects/>
+        </Item>
+      </portals>
+      <entitySets/>
+      <timeCycleModifiers/>
+    </Item>
+  </archetypes>
+  <name>sanhje_map</name>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>
+

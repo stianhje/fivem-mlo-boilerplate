@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CPackFileMetaData>
+  <MapDataGroups/>
+  <HDTxdBindingArray/>
+  <imapDependencies/>
+  <imapDependencies_2>
+    <Item>
+      <imapName>sanhje_map_placement</imapName>
+      <manifestFlags>INTERIOR_DATA</manifestFlags>
+      <itypDepArray>
+        <Item>sanhje_map</Item>
+      </itypDepArray>
+    </Item>
+  </imapDependencies_2>
+  <itypDependencies_2>
+    <Item>
+      <itypName>sanhje_map</itypName>
+      <manifestFlags>INTERIOR_DATA</manifestFlags>
+      <itypDepArray/>
+    </Item>
+  </itypDependencies_2>
+  <Interiors>
+    <Item>
+      <Name>v_sanhje_map</Name>
+      <Bounds>
+        <Item>v_sanhje_map</Item>
+      </Bounds>
+    </Item>
+  </Interiors>
+</CPackFileMetaData>
